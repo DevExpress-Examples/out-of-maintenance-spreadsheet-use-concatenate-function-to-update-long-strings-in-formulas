@@ -1,6 +1,6 @@
 # Spreadsheet - How to use the CONCATENATE function to update formulas with text values longer than 255 characters
 
-Text values in spreadsheet formulas are limited to 255 characters. If you load a document that contains formulas with string arguments longer than 255 characters, the Spreadsheet control truncates extra characters in these formulas. To avoid this behavior and allow formulas with long strings, set the `SpreadsheetControl.Options.Compatibility.TruncateLongStringsInFormulas` property to **false**.
+Text values in spreadsheet formulas are limited to 255 characters. If you load a document that contains formulas with string arguments longer than 255 characters, the Spreadsheet control truncates extra characters in these formulas. To avoid this behavior and allow formulas with long strings, set this property to **false**: `SpreadsheetControl.Options.Compatibility.TruncateLongStringsInFormulas`.
 
 Consider the following restrictions if you disable this option:
 
