@@ -15,6 +15,6 @@ We recommend that you use the CONCATENATE function or the concatenation operator
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/SpreadsheetApp/Form1.cs)
-* [ReplaceLongStringsWalker.cs](./CS/SpreadsheetApp/ReplaceLongStringsWalker.cs)
+* [Form1.cs](./CS/SpreadsheetApp/Form1.cs) (VB: [Form1.vb](./VB/SpreadsheetApp/Form1.vb))
+* [ReplaceLongStringsWalker.cs](./CS/SpreadsheetApp/ReplaceLongStringsWalker.cs) (VB: [ReplaceLongStringsWalker.vb](./VB/SpreadsheetApp/ReplaceLongStringsWalker.vb))
 <!-- default file list end -->
