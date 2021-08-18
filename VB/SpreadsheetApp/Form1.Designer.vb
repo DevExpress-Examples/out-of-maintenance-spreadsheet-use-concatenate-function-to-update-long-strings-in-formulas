@@ -757,27 +757,27 @@ Namespace SpreadsheetApp
             'spreadsheetControl1
             '
             Me.spreadsheetControl1.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.spreadsheetControl1.Location = New System.Drawing.Point(0, 235)
+            Me.spreadsheetControl1.Location = New System.Drawing.Point(0, 402)
+            Me.spreadsheetControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
             Me.spreadsheetControl1.MenuManager = Me.ribbonControl1
             Me.spreadsheetControl1.Name = "spreadsheetControl1"
-            Me.spreadsheetControl1.Size = New System.Drawing.Size(700, 215)
+            Me.spreadsheetControl1.Size = New System.Drawing.Size(1200, 301)
             Me.spreadsheetControl1.TabIndex = 0
             Me.spreadsheetControl1.Text = "spreadsheetControl1"
             '
             'ribbonControl1
             '
-            Me.ribbonControl1.EmptyAreaImageOptions.ImagePadding = New System.Windows.Forms.Padding(62, 71, 62, 71)
             Me.ribbonControl1.ExpandCollapseItem.Id = 0
             Me.ribbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.ribbonControl1.ExpandCollapseItem, Me.ribbonControl1.SearchEditItem, Me.spreadsheetCommandBarButtonItem1, Me.spreadsheetCommandBarButtonItem2, Me.spreadsheetCommandBarButtonItem3, Me.spreadsheetCommandBarButtonItem4, Me.spreadsheetCommandBarButtonItem5, Me.spreadsheetCommandBarButtonItem6, Me.spreadsheetCommandBarButtonItem7, Me.spreadsheetCommandBarButtonItem8, Me.spreadsheetCommandBarButtonItem9, Me.spreadsheetCommandBarButtonItem10, Me.spreadsheetCommandBarButtonItem11, Me.spreadsheetCommandBarButtonItem12, Me.spreadsheetCommandBarButtonItem13, Me.spreadsheetCommandBarButtonItem14, Me.spreadsheetCommandBarButtonItem15, Me.barButtonGroup1, Me.changeFontNameItem1, Me.changeFontSizeItem1, Me.spreadsheetCommandBarButtonItem16, Me.spreadsheetCommandBarButtonItem17, Me.barButtonGroup2, Me.spreadsheetCommandBarCheckItem1, Me.spreadsheetCommandBarCheckItem2, Me.spreadsheetCommandBarCheckItem3, Me.spreadsheetCommandBarCheckItem4, Me.barButtonGroup3, Me.spreadsheetCommandBarSubItem1, Me.spreadsheetCommandBarButtonItem18, Me.spreadsheetCommandBarButtonItem19, Me.spreadsheetCommandBarButtonItem20, Me.spreadsheetCommandBarButtonItem21, Me.spreadsheetCommandBarButtonItem22, Me.spreadsheetCommandBarButtonItem23, Me.spreadsheetCommandBarButtonItem24, Me.spreadsheetCommandBarButtonItem25, Me.spreadsheetCommandBarButtonItem26, Me.spreadsheetCommandBarButtonItem27, Me.spreadsheetCommandBarButtonItem28, Me.spreadsheetCommandBarButtonItem29, Me.spreadsheetCommandBarButtonItem30, Me.changeBorderLineColorItem1, Me.changeBorderLineStyleItem1, Me.barButtonGroup4, Me.changeCellFillColorItem1, Me.changeFontColorItem1, Me.barButtonGroup5, Me.spreadsheetCommandBarCheckItem5, Me.spreadsheetCommandBarCheckItem6, Me.spreadsheetCommandBarCheckItem7, Me.barButtonGroup6, Me.spreadsheetCommandBarCheckItem8, Me.spreadsheetCommandBarCheckItem9, Me.spreadsheetCommandBarCheckItem10, Me.barButtonGroup7, Me.spreadsheetCommandBarButtonItem31, Me.spreadsheetCommandBarButtonItem32, Me.spreadsheetCommandBarCheckItem11, Me.spreadsheetCommandBarSubItem2, Me.spreadsheetCommandBarCheckItem12, Me.spreadsheetCommandBarButtonItem33, Me.spreadsheetCommandBarButtonItem34, Me.spreadsheetCommandBarButtonItem35, Me.barButtonGroup8, Me.changeNumberFormatItem1, Me.barButtonGroup9, Me.spreadsheetCommandBarSubItem3, Me.spreadsheetCommandBarButtonItem36, Me.spreadsheetCommandBarButtonItem37, Me.spreadsheetCommandBarButtonItem38, Me.spreadsheetCommandBarButtonItem39, Me.spreadsheetCommandBarButtonItem40, Me.spreadsheetCommandBarButtonItem41, Me.spreadsheetCommandBarButtonItem42, Me.spreadsheetCommandBarButtonItem43, Me.barButtonGroup10, Me.spreadsheetCommandBarButtonItem44, Me.spreadsheetCommandBarButtonItem45, Me.spreadsheetCommandBarSubItem7, Me.spreadsheetCommandBarButtonItem46, Me.spreadsheetCommandBarButtonItem47, Me.spreadsheetCommandBarButtonItem48, Me.spreadsheetCommandBarButtonItem49, Me.spreadsheetCommandBarButtonItem50, Me.spreadsheetCommandBarButtonItem51, Me.spreadsheetCommandBarButtonItem52, Me.spreadsheetCommandBarSubItem4, Me.spreadsheetCommandBarButtonItem53, Me.spreadsheetCommandBarButtonItem54, Me.spreadsheetCommandBarButtonItem55, Me.spreadsheetCommandBarButtonItem56, Me.spreadsheetCommandBarButtonItem57, Me.spreadsheetCommandBarButtonItem58, Me.spreadsheetCommandBarSubItem5, Me.spreadsheetCommandBarButtonGalleryDropDownItem1, Me.spreadsheetCommandBarButtonGalleryDropDownItem2, Me.spreadsheetCommandBarButtonGalleryDropDownItem3, Me.spreadsheetCommandBarButtonItem59, Me.spreadsheetCommandBarButtonItem60, Me.spreadsheetCommandBarButtonItem61, Me.spreadsheetCommandBarSubItem6, Me.spreadsheetCommandBarButtonItem62, Me.galleryFormatAsTableItem1, Me.galleryChangeStyleItem1, Me.spreadsheetCommandBarSubItem8, Me.spreadsheetCommandBarButtonItem63, Me.spreadsheetCommandBarButtonItem64, Me.spreadsheetCommandBarButtonItem65, Me.spreadsheetCommandBarButtonItem66, Me.spreadsheetCommandBarButtonItem67, Me.spreadsheetCommandBarButtonItem68, Me.spreadsheetCommandBarButtonItem69, Me.spreadsheetCommandBarButtonItem70, Me.spreadsheetCommandBarSubItem9, Me.spreadsheetCommandBarButtonItem71, Me.spreadsheetCommandBarButtonItem72, Me.spreadsheetCommandBarButtonItem73, Me.spreadsheetCommandBarButtonItem74, Me.spreadsheetCommandBarButtonItem75, Me.spreadsheetCommandBarButtonItem76, Me.spreadsheetCommandBarSubItem11, Me.spreadsheetCommandBarButtonItem77, Me.spreadsheetCommandBarButtonItem78, Me.spreadsheetCommandBarButtonItem79, Me.spreadsheetCommandBarButtonItem80, Me.spreadsheetCommandBarButtonItem81, Me.spreadsheetCommandBarButtonItem82, Me.spreadsheetCommandBarButtonItem83, Me.spreadsheetCommandBarButtonItem84, Me.spreadsheetCommandBarButtonItem85, Me.spreadsheetCommandBarButtonItem86, Me.spreadsheetCommandBarButtonItem87, Me.spreadsheetCommandBarSubItem10, Me.spreadsheetCommandBarButtonItem88, Me.spreadsheetCommandBarButtonItem89, Me.changeSheetTabColorItem1, Me.spreadsheetCommandBarButtonItem90, Me.spreadsheetCommandBarCheckItem13, Me.spreadsheetCommandBarButtonItem91, Me.spreadsheetCommandBarSubItem12, Me.spreadsheetCommandBarButtonItem92, Me.spreadsheetCommandBarButtonItem93, Me.spreadsheetCommandBarButtonItem94, Me.spreadsheetCommandBarButtonItem95, Me.spreadsheetCommandBarButtonItem96, Me.spreadsheetCommandBarSubItem13, Me.spreadsheetCommandBarButtonItem97, Me.spreadsheetCommandBarButtonItem98, Me.spreadsheetCommandBarButtonItem99, Me.spreadsheetCommandBarButtonItem100, Me.spreadsheetCommandBarSubItem14, Me.spreadsheetCommandBarButtonItem101, Me.spreadsheetCommandBarButtonItem102, Me.spreadsheetCommandBarButtonItem103, Me.spreadsheetCommandBarButtonItem104, Me.spreadsheetCommandBarButtonItem105, Me.spreadsheetCommandBarButtonItem106, Me.spreadsheetCommandBarSubItem15, Me.spreadsheetCommandBarButtonItem107, Me.spreadsheetCommandBarButtonItem108, Me.spreadsheetCommandBarCheckItem14, Me.spreadsheetCommandBarButtonItem109, Me.spreadsheetCommandBarButtonItem110, Me.spreadsheetCommandBarSubItem16, Me.spreadsheetCommandBarButtonItem111, Me.spreadsheetCommandBarButtonItem112, Me.spreadsheetCommandBarButtonItem113, Me.spreadsheetCommandBarButtonItem114, Me.spreadsheetCommandBarButtonItem115, Me.spreadsheetCommandBarButtonItem116, Me.spreadsheetCommandBarButtonItem117, Me.spreadsheetCommandBarButtonItem118, Me.spreadsheetCommandBarButtonItem119, Me.spreadsheetCommandBarButtonItem120, Me.spreadsheetCommandBarButtonGalleryDropDownItem4, Me.spreadsheetCommandBarButtonGalleryDropDownItem5, Me.spreadsheetCommandBarButtonGalleryDropDownItem6, Me.spreadsheetCommandBarButtonGalleryDropDownItem7, Me.spreadsheetCommandBarButtonGalleryDropDownItem8, Me.spreadsheetCommandBarButtonGalleryDropDownItem9, Me.spreadsheetCommandBarButtonGalleryDropDownItem10, Me.spreadsheetCommandBarButtonGalleryDropDownItem11, Me.spreadsheetCommandBarButtonGalleryDropDownItem12, Me.spreadsheetCommandBarButtonItem121, Me.spreadsheetCommandBarButtonItem122, Me.spreadsheetCommandBarSubItem17, Me.spreadsheetCommandBarCheckItem15, Me.spreadsheetCommandBarCheckItem16, Me.spreadsheetCommandBarCheckItem17, Me.spreadsheetCommandBarButtonItem123, Me.spreadsheetCommandBarSubItem18, Me.spreadsheetCommandBarCheckItem18, Me.spreadsheetCommandBarCheckItem19, Me.pageSetupPaperKindItem1, Me.spreadsheetCommandBarSubItem19, Me.spreadsheetCommandBarButtonItem124, Me.spreadsheetCommandBarButtonItem125, Me.spreadsheetCommandBarButtonItem126, Me.spreadsheetCommandBarButtonItem127, Me.spreadsheetCommandBarCheckItem20, Me.spreadsheetCommandBarCheckItem21, Me.spreadsheetCommandBarCheckItem22, Me.spreadsheetCommandBarCheckItem23, Me.spreadsheetCommandBarSubItem20, Me.spreadsheetCommandBarButtonItem128, Me.spreadsheetCommandBarButtonItem129, Me.spreadsheetCommandBarSubItem21, Me.spreadsheetCommandBarButtonItem130, Me.spreadsheetCommandBarButtonItem131, Me.spreadsheetCommandBarSubItem22, Me.functionsFinancialItem1, Me.functionsLogicalItem1, Me.functionsTextItem1, Me.functionsDateAndTimeItem1, Me.functionsLookupAndReferenceItem1, Me.functionsMathAndTrigonometryItem1, Me.spreadsheetCommandBarSubItem23, Me.functionsStatisticalItem1, Me.functionsEngineeringItem1, Me.functionsInformationItem1, Me.functionsCompatibilityItem1, Me.functionsWebItem1, Me.spreadsheetCommandBarButtonItem132, Me.spreadsheetCommandBarButtonItem133, Me.definedNameListItem1, Me.spreadsheetCommandBarButtonItem134, Me.spreadsheetCommandBarCheckItem24, Me.spreadsheetCommandBarSubItem24, Me.spreadsheetCommandBarCheckItem25, Me.spreadsheetCommandBarCheckItem26, Me.spreadsheetCommandBarButtonItem135, Me.spreadsheetCommandBarButtonItem136, Me.spreadsheetCommandBarSubItem25, Me.spreadsheetCommandBarButtonItem137, Me.spreadsheetCommandBarButtonItem138, Me.spreadsheetCommandBarButtonItem139, Me.spreadsheetCommandBarSubItem26, Me.spreadsheetCommandBarButtonItem140, Me.spreadsheetCommandBarButtonItem141, Me.spreadsheetCommandBarSubItem27, Me.spreadsheetCommandBarButtonItem142, Me.spreadsheetCommandBarButtonItem143, Me.spreadsheetCommandBarButtonItem144, Me.spreadsheetCommandBarButtonItem145, Me.spreadsheetCommandBarButtonItem146, Me.spreadsheetCommandBarButtonItem147, Me.spreadsheetCommandBarButtonItem148, Me.spreadsheetCommandBarButtonItem149, Me.spreadsheetCommandBarButtonItem150, Me.spreadsheetCommandBarButtonItem151, Me.spreadsheetCommandBarButtonItem152, Me.spreadsheetCommandBarButtonItem153, Me.spreadsheetCommandBarButtonItem154, Me.spreadsheetCommandBarButtonItem155, Me.spreadsheetCommandBarButtonItem156, Me.spreadsheetCommandBarButtonItem157, Me.spreadsheetCommandBarButtonItem158, Me.spreadsheetCommandBarSubItem28, Me.spreadsheetCommandBarButtonItem159, Me.spreadsheetCommandBarButtonItem160, Me.spreadsheetCommandBarButtonItem161, Me.spreadsheetCommandBarButtonItem162, Me.spreadsheetCommandBarButtonItem163, Me.spreadsheetCommandBarButtonItem164, Me.spreadsheetCommandBarButtonItem165, Me.galleryChartLayoutItem1, Me.galleryChartStyleItem1, Me.spreadsheetCommandBarButtonItem166, Me.spreadsheetCommandBarSubItem29, Me.spreadsheetCommandBarButtonGalleryDropDownItem13, Me.spreadsheetCommandBarButtonGalleryDropDownItem14, Me.spreadsheetCommandBarSubItem30, Me.spreadsheetCommandBarButtonGalleryDropDownItem15, Me.spreadsheetCommandBarButtonGalleryDropDownItem16, Me.spreadsheetCommandBarButtonGalleryDropDownItem17, Me.spreadsheetCommandBarSubItem31, Me.spreadsheetCommandBarButtonGalleryDropDownItem18, Me.spreadsheetCommandBarButtonGalleryDropDownItem19, Me.spreadsheetCommandBarButtonGalleryDropDownItem20, Me.spreadsheetCommandBarButtonGalleryDropDownItem21, Me.spreadsheetCommandBarButtonGalleryDropDownItem22, Me.spreadsheetCommandBarButtonGalleryDropDownItem23, Me.spreadsheetCommandBarButtonGalleryDropDownItem24, Me.renameTableItemCaption1, Me.renameTableItem1, Me.spreadsheetCommandBarCheckItem27, Me.spreadsheetCommandBarCheckItem28, Me.spreadsheetCommandBarCheckItem29, Me.spreadsheetCommandBarCheckItem30, Me.spreadsheetCommandBarCheckItem31, Me.spreadsheetCommandBarCheckItem32, Me.spreadsheetCommandBarCheckItem33, Me.galleryTableStylesItem1, Me.spreadsheetCommandBarButtonItem167, Me.spreadsheetCommandBarButtonItem168, Me.spreadsheetCommandBarButtonItem169, Me.spreadsheetCommandBarButtonItem170, Me.spreadsheetCommandBarButtonItem171, Me.spreadsheetCommandBarButtonItem172, Me.spreadsheetCommandBarButtonItem173, Me.spreadsheetCommandBarSubItem32, Me.spreadsheetCommandBarButtonItem174, Me.spreadsheetCommandBarButtonItem175, Me.spreadsheetCommandBarButtonItem176, Me.spreadsheetCommandBarSubItem33, Me.spreadsheetCommandBarButtonItem177, Me.spreadsheetCommandBarButtonItem178, Me.spreadsheetCommandBarSubItem34, Me.spreadsheetCommandBarButtonItem179, Me.spreadsheetCommandBarButtonItem180, Me.spreadsheetCommandBarButtonItem181, Me.spreadsheetCommandBarButtonItem182, Me.spreadsheetCommandBarSubItem35, Me.spreadsheetCommandBarButtonItem183, Me.spreadsheetCommandBarButtonItem184, Me.spreadsheetCommandBarButtonItem185, Me.spreadsheetCommandBarButtonItem186, Me.spreadsheetCommandBarCheckItem34, Me.spreadsheetCommandBarCheckItem35, Me.spreadsheetCommandBarCheckItem36, Me.spreadsheetCommandBarSubItem36, Me.spreadsheetCommandBarButtonItem187, Me.spreadsheetCommandBarButtonItem188, Me.spreadsheetCommandBarButtonItem189, Me.spreadsheetCommandBarSubItem37, Me.spreadsheetCommandBarButtonItem190, Me.spreadsheetCommandBarButtonItem191, Me.spreadsheetCommandBarButtonItem192, Me.spreadsheetCommandBarButtonItem193, Me.spreadsheetCommandBarSubItem38, Me.spreadsheetCommandBarButtonItem194, Me.spreadsheetCommandBarButtonItem195, Me.spreadsheetCommandBarButtonItem196, Me.spreadsheetCommandBarButtonItem197, Me.spreadsheetCommandBarButtonItem198, Me.spreadsheetCommandBarSubItem39, Me.spreadsheetCommandBarButtonItem199, Me.spreadsheetCommandBarButtonItem200, Me.spreadsheetCommandBarCheckItem37, Me.spreadsheetCommandBarCheckItem38, Me.spreadsheetCommandBarCheckItem39, Me.spreadsheetCommandBarCheckItem40, Me.galleryPivotStylesItem1})
             Me.ribbonControl1.Location = New System.Drawing.Point(0, 0)
-            Me.ribbonControl1.Margin = New System.Windows.Forms.Padding(8)
+            Me.ribbonControl1.Margin = New System.Windows.Forms.Padding(14, 12, 14, 12)
             Me.ribbonControl1.MaxItemId = 343
             Me.ribbonControl1.Name = "ribbonControl1"
-            Me.ribbonControl1.OptionsMenuMinWidth = 705
+            Me.ribbonControl1.OptionsMenuMinWidth = 1209
             Me.ribbonControl1.PageCategories.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageCategory() {Me.chartToolsRibbonPageCategory1, Me.tableToolsRibbonPageCategory1, Me.drawingToolsRibbonPageCategory1, Me.pictureToolsRibbonPageCategory1, Me.pivotTableToolsRibbonPageCategory1})
             Me.ribbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.fileRibbonPage1, Me.homeRibbonPage1, Me.insertRibbonPage1, Me.pageLayoutRibbonPage1, Me.formulasRibbonPage1, Me.dataRibbonPage1, Me.reviewRibbonPage1, Me.viewRibbonPage1})
             Me.ribbonControl1.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.repositoryItemFontEdit1, Me.repositoryItemSpreadsheetFontSizeEdit1, Me.repositoryItemPopupGalleryEdit1, Me.repositoryItemTextEdit1})
-            Me.ribbonControl1.Size = New System.Drawing.Size(700, 193)
+            Me.ribbonControl1.Size = New System.Drawing.Size(1200, 310)
             '
             'spreadsheetCommandBarButtonItem1
             '
@@ -1082,7 +1082,7 @@ Namespace SpreadsheetApp
             Me.commandBarGalleryDropDown1.Gallery.DrawImageBackground = False
             Me.commandBarGalleryDropDown1.Gallery.ImageSize = New System.Drawing.Size(65, 46)
             Me.commandBarGalleryDropDown1.Gallery.ItemAutoSizeMode = DevExpress.XtraBars.Ribbon.Gallery.GalleryItemAutoSizeMode.None
-            Me.commandBarGalleryDropDown1.Gallery.ItemSize = New System.Drawing.Size(170, 32)
+            Me.commandBarGalleryDropDown1.Gallery.ItemSize = New System.Drawing.Size(272, 52)
             Me.commandBarGalleryDropDown1.Gallery.RowCount = 14
             Me.commandBarGalleryDropDown1.Gallery.ShowGroupCaption = False
             Me.commandBarGalleryDropDown1.Gallery.ShowItemText = True
@@ -1701,9 +1701,9 @@ Namespace SpreadsheetApp
             '
             '
             Me.galleryChangeStyleItem1.Gallery.DrawImageBackground = False
-            Me.galleryChangeStyleItem1.Gallery.ImageSize = New System.Drawing.Size(174, 140)
+            Me.galleryChangeStyleItem1.Gallery.ImageSize = New System.Drawing.Size(298, 219)
             Me.galleryChangeStyleItem1.Gallery.ItemAutoSizeMode = DevExpress.XtraBars.Ribbon.Gallery.GalleryItemAutoSizeMode.None
-            Me.galleryChangeStyleItem1.Gallery.ItemSize = New System.Drawing.Size(226, 69)
+            Me.galleryChangeStyleItem1.Gallery.ItemSize = New System.Drawing.Size(387, 108)
             Me.galleryChangeStyleItem1.Gallery.RowCount = 9
             Me.galleryChangeStyleItem1.Gallery.ShowItemText = True
             Me.galleryChangeStyleItem1.Id = 103
@@ -2958,7 +2958,7 @@ Namespace SpreadsheetApp
             '
             Me.galleryChartLayoutItem1.Gallery.ColumnCount = 6
             Me.galleryChartLayoutItem1.Gallery.DrawImageBackground = False
-            Me.galleryChartLayoutItem1.Gallery.ImageSize = New System.Drawing.Size(101, 117)
+            Me.galleryChartLayoutItem1.Gallery.ImageSize = New System.Drawing.Size(173, 183)
             Me.galleryChartLayoutItem1.Gallery.RowCount = 2
             Me.galleryChartLayoutItem1.Id = 265
             Me.galleryChartLayoutItem1.Name = "galleryChartLayoutItem1"
@@ -2970,9 +2970,9 @@ Namespace SpreadsheetApp
             '
             Me.galleryChartStyleItem1.Gallery.ColumnCount = 8
             Me.galleryChartStyleItem1.Gallery.DrawImageBackground = False
-            Me.galleryChartStyleItem1.Gallery.ImageSize = New System.Drawing.Size(174, 140)
+            Me.galleryChartStyleItem1.Gallery.ImageSize = New System.Drawing.Size(298, 219)
             Me.galleryChartStyleItem1.Gallery.ItemAutoSizeMode = DevExpress.XtraBars.Ribbon.Gallery.GalleryItemAutoSizeMode.None
-            Me.galleryChartStyleItem1.Gallery.ItemSize = New System.Drawing.Size(196, 136)
+            Me.galleryChartStyleItem1.Gallery.ItemSize = New System.Drawing.Size(336, 212)
             Me.galleryChartStyleItem1.Gallery.MinimumColumnCount = 4
             Me.galleryChartStyleItem1.Gallery.RowCount = 6
             Me.galleryChartStyleItem1.Id = 266
@@ -3429,9 +3429,9 @@ Namespace SpreadsheetApp
             '
             Me.galleryTableStylesItem1.Gallery.ColumnCount = 7
             Me.galleryTableStylesItem1.Gallery.DrawImageBackground = False
-            Me.galleryTableStylesItem1.Gallery.ImageSize = New System.Drawing.Size(174, 140)
+            Me.galleryTableStylesItem1.Gallery.ImageSize = New System.Drawing.Size(298, 219)
             Me.galleryTableStylesItem1.Gallery.ItemAutoSizeMode = DevExpress.XtraBars.Ribbon.Gallery.GalleryItemAutoSizeMode.None
-            Me.galleryTableStylesItem1.Gallery.ItemSize = New System.Drawing.Size(156, 140)
+            Me.galleryTableStylesItem1.Gallery.ItemSize = New System.Drawing.Size(267, 219)
             Me.galleryTableStylesItem1.Gallery.RowCount = 10
             Me.galleryTableStylesItem1.Id = 292
             Me.galleryTableStylesItem1.Name = "galleryTableStylesItem1"
@@ -3768,9 +3768,9 @@ Namespace SpreadsheetApp
             '
             Me.galleryPivotStylesItem1.Gallery.ColumnCount = 7
             Me.galleryPivotStylesItem1.Gallery.DrawImageBackground = False
-            Me.galleryPivotStylesItem1.Gallery.ImageSize = New System.Drawing.Size(174, 140)
+            Me.galleryPivotStylesItem1.Gallery.ImageSize = New System.Drawing.Size(298, 219)
             Me.galleryPivotStylesItem1.Gallery.ItemAutoSizeMode = DevExpress.XtraBars.Ribbon.Gallery.GalleryItemAutoSizeMode.None
-            Me.galleryPivotStylesItem1.Gallery.ItemSize = New System.Drawing.Size(156, 149)
+            Me.galleryPivotStylesItem1.Gallery.ItemSize = New System.Drawing.Size(267, 233)
             Me.galleryPivotStylesItem1.Gallery.RowCount = 10
             Me.galleryPivotStylesItem1.Id = 342
             Me.galleryPivotStylesItem1.Name = "galleryPivotStylesItem1"
@@ -4345,21 +4345,23 @@ Namespace SpreadsheetApp
             'spreadsheetFormulaBar1
             '
             Me.spreadsheetFormulaBar1.Dock = System.Windows.Forms.DockStyle.Top
-            Me.spreadsheetFormulaBar1.Location = New System.Drawing.Point(0, 193)
-            Me.spreadsheetFormulaBar1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-            Me.spreadsheetFormulaBar1.MinimumSize = New System.Drawing.Size(0, 24)
+            Me.spreadsheetFormulaBar1.Expanded = True
+            Me.spreadsheetFormulaBar1.Location = New System.Drawing.Point(0, 310)
+            Me.spreadsheetFormulaBar1.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
+            Me.spreadsheetFormulaBar1.MinimumSize = New System.Drawing.Size(0, 38)
             Me.spreadsheetFormulaBar1.Name = "spreadsheetFormulaBar1"
-            Me.spreadsheetFormulaBar1.Size = New System.Drawing.Size(700, 30)
+            Me.spreadsheetFormulaBar1.Size = New System.Drawing.Size(1200, 72)
             Me.spreadsheetFormulaBar1.SpreadsheetControl = Me.spreadsheetControl1
             Me.spreadsheetFormulaBar1.TabIndex = 2
             '
             'splitterControl1
             '
             Me.splitterControl1.Dock = System.Windows.Forms.DockStyle.Top
-            Me.splitterControl1.Location = New System.Drawing.Point(0, 223)
+            Me.splitterControl1.Location = New System.Drawing.Point(0, 382)
+            Me.splitterControl1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
             Me.splitterControl1.MinSize = 20
             Me.splitterControl1.Name = "splitterControl1"
-            Me.splitterControl1.Size = New System.Drawing.Size(700, 12)
+            Me.splitterControl1.Size = New System.Drawing.Size(1200, 20)
             Me.splitterControl1.TabIndex = 1
             Me.splitterControl1.TabStop = False
             '
@@ -4701,13 +4703,14 @@ Namespace SpreadsheetApp
             '
             'Form1
             '
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-            Me.ClientSize = New System.Drawing.Size(700, 450)
+            Me.ClientSize = New System.Drawing.Size(1200, 703)
             Me.Controls.Add(Me.spreadsheetControl1)
             Me.Controls.Add(Me.splitterControl1)
             Me.Controls.Add(Me.spreadsheetFormulaBar1)
             Me.Controls.Add(Me.ribbonControl1)
+            Me.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
             Me.Name = "Form1"
             Me.Ribbon = Me.ribbonControl1
             Me.Text = "Spreadsheet"
